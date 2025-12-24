@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>शुल्क बकाया सूचना | Fee Due Notice</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; background:#f2f4f7;">
+
+<table width="100%" cellpadding="0" cellspacing="0" style="padding:20px;">
+<tr>
+<td align="center">
+
+<table width="600" cellpadding="0" cellspacing="0"
+style="background:#ffffff; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
+
+<!-- Header -->
+<tr>
+<td style="background:#c82333; color:#ffffff; padding:18px; text-align:center;">
+<h2 style="margin:0;">⚠️ महत्वपूर्ण शुल्क सूचना | Fee Due Notice</h2>
+</td>
+</tr>
+
+<!-- Body -->
+<tr>
+<td style="padding:25px; color:#333; font-size:15px; line-height:1.7;">
+
+<p><strong>संस्था:</strong> {{institute_name}}</p>
+<p><strong>जारी दिनांक:</strong> {{issue_date}}</p>
+
+<hr>
+
+<!-- ================= HINDI ================= -->
+
+<p><strong>प्रिय अभिभावक,</strong></p>
+
+<p>
+यह सूचना आपके बच्चे  
+<strong>{{student_name}}</strong>  
+(रोल नंबर: {{roll_number}}, कक्षा: {{class}}, बैच: {{batch}})  
+से संबंधित है।
+</p>
+
+<p>
+आपको सूचित किया जाता है कि  
+<strong>{{due_period}}</strong> की कोचिंग फीस अभी तक जमा नहीं की गई है।
+</p>
+
+<table width="100%" cellpadding="8" cellspacing="0"
+style="background:#f8f9fa; border:1px solid #ddd; margin:15px 0;">
+<tr>
+<td><strong>बकाया शुल्क</strong></td>
+<td align="right" style="color:#c82333;"><strong>₹ {{due_amount}}</strong></td>
+</tr>
+<tr>
+<td><strong>स्थिति दिनांक</strong></td>
+<td align="right">{{current_date}}</td>
+</tr>
+</table>
+
+<p>
+समय पर फीस जमा होना केवल औपचारिकता नहीं है।  
+इसी शुल्क से शिक्षकों की सेवाएँ, अध्ययन सामग्री  
+और कक्षा संचालन सुचारु रूप से चलता है।
+</p>
+
+<p style="color:#a71d2a;">
+यदि निर्धारित समय तक शुल्क जमा नहीं किया गया,  
+तो बच्चे की कक्षाएँ <strong>अस्थायी रूप से रोक दी जा सकती हैं</strong>।
+</p>
+
+<p>
+हम नहीं चाहते कि केवल शुल्क के कारण  
+आपके बच्चे की पढ़ाई प्रभावित हो।  
+अतः आपसे अनुरोध है कि कृपया <strong>शीघ्र भुगतान</strong> करें।
+</p>
+
+<p>
+यदि भुगतान पहले ही किया जा चुका है,  
+तो कृपया इस सूचना को अनदेखा करें।
+</p>
+
+<hr>
+
+<!-- ================= ENGLISH ================= -->
+
+<p><strong>Dear Parent,</strong></p>
+
+<p>
+This notice is regarding your child  
+<strong>{{student_name}}</strong>  
+(Roll No: {{roll_number}}, Class: {{class}}, Batch: {{batch}}).
+</p>
+
+<p>
+The coaching fee for the period  
+<strong>{{due_period}}</strong> is still pending.
+</p>
+
+<table width="100%" cellpadding="8" cellspacing="0"
+style="background:#f8f9fa; border:1px solid #ddd; margin:15px 0;">
+<tr>
+<td><strong>Due Amount</strong></td>
+<td align="right" style="color:#c82333;"><strong>₹ {{due_amount}}</strong></td>
+</tr>
+<tr>
+<td><strong>Status Date</strong></td>
+<td align="right">{{current_date}}</td>
+</tr>
+</table>
+
+<p>
+Timely payment of fees is not merely a formality.  
+It supports teachers, study resources,  
+and the smooth continuation of classes.
+</p>
+
+<p style="color:#a71d2a;">
+If the fee is not paid within the stipulated time,  
+the child’s classes may be <strong>temporarily suspended</strong>.
+</p>
+
+<p>
+We sincerely request you to clear the pending amount  
+at the earliest to avoid any disruption in your child’s education.
+</p>
+
+<p>
+If the payment has already been made,  
+please ignore this notice.
+</p>
+
+<br>
+
+<p>
+<strong>{{signature}}</strong><br>
+{{institute_name}}
+</p>
+
+<p>
+<img src="{{stamp}}" alt="Institute Stamp" style="max-height:60px;">
+</p>
+
+</td>
+</tr>
+
+<!-- Footer -->
+<tr>
+<td style="background:#f1f1f1; padding:12px; text-align:center; font-size:12px; color:#666;">
+यह एक स्वचालित सूचना है | This is an auto-generated notice
+</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
